@@ -19,10 +19,18 @@
 		71A540251658498500E98278 /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A540241658498500E98278 /* PTViewController.m */; };
 		71A540281658498500E98278 /* PTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A540261658498500E98278 /* PTViewController_iPhone.xib */; };
 		71A5402B1658498500E98278 /* PTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A540291658498500E98278 /* PTViewController_iPad.xib */; };
+		71A5403B1659850F00E98278 /* PTVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5403A1659850F00E98278 /* PTVehicle.m */; };
+		71A5403E1659856D00E98278 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5403C1659856400E98278 /* CoreLocation.framework */; };
+		71A54041165986DF00E98278 /* PTVehiclesOnRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A54040165986DF00E98278 /* PTVehiclesOnRoute.m */; };
+		71A5404516598B4300E98278 /* PTVehiclesOnRouteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5404416598B4300E98278 /* PTVehiclesOnRouteLoader.m */; };
+		71A5404816598DA800E98278 /* PTVehicleTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = 71A5404716598DA800E98278 /* PTVehicleTypes.h */; };
+		71A5405016599AD000E98278 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 71A5404C16599AD000E98278 /* CHANGELOG.md */; };
+		71A5405116599AD000E98278 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5404E16599AD000E98278 /* JSONKit.m */; };
+		71A5405216599AD000E98278 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 71A5404F16599AD000E98278 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		71A540071658498500E98278 /* Public Transport Ukraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Public Transport Ukraine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A540071658498500E98278 /* PTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A5400B1658498500E98278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71A5400D1658498500E98278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71A5400F1658498500E98278 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,6 +47,20 @@
 		71A540241658498500E98278 /* PTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTViewController.m; sourceTree = "<group>"; };
 		71A540271658498500E98278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTViewController_iPhone.xib; sourceTree = "<group>"; };
 		71A5402A1658498500E98278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTViewController_iPad.xib; sourceTree = "<group>"; };
+		71A540391659850F00E98278 /* PTVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTVehicle.h; path = Model/PTVehicle.h; sourceTree = "<group>"; };
+		71A5403A1659850F00E98278 /* PTVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTVehicle.m; path = Model/PTVehicle.m; sourceTree = "<group>"; };
+		71A5403C1659856400E98278 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71A5403F165986DF00E98278 /* PTVehiclesOnRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTVehiclesOnRoute.h; path = Model/PTVehiclesOnRoute.h; sourceTree = "<group>"; };
+		71A54040165986DF00E98278 /* PTVehiclesOnRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTVehiclesOnRoute.m; path = Model/PTVehiclesOnRoute.m; sourceTree = "<group>"; };
+		71A5404316598B4300E98278 /* PTVehiclesOnRouteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTVehiclesOnRouteLoader.h; path = Loader/PTVehiclesOnRouteLoader.h; sourceTree = "<group>"; };
+		71A5404416598B4300E98278 /* PTVehiclesOnRouteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTVehiclesOnRouteLoader.m; path = Loader/PTVehiclesOnRouteLoader.m; sourceTree = "<group>"; };
+		71A5404616598B6D00E98278 /* PTVehiclesOnRouteLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PTVehiclesOnRouteLoaderDelegate.h; path = Loader/PTVehiclesOnRouteLoaderDelegate.h; sourceTree = "<group>"; };
+		71A5404716598DA800E98278 /* PTVehicleTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTVehicleTypes.h; path = Loader/PTVehicleTypes.h; sourceTree = "<group>"; };
+		71A5404916598E4E00E98278 /* PTCity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PTCity.h; path = Loader/PTCity.h; sourceTree = "<group>"; };
+		71A5404C16599AD000E98278 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		71A5404D16599AD000E98278 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		71A5404E16599AD000E98278 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		71A5404F16599AD000E98278 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A5403E1659856D00E98278 /* CoreLocation.framework in Frameworks */,
 				71A5400C1658498500E98278 /* UIKit.framework in Frameworks */,
 				71A5400E1658498500E98278 /* Foundation.framework in Frameworks */,
 				71A540101658498500E98278 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				71A540111658498500E98278 /* Public Transport Ukraine */,
+				71A5404A16599AD000E98278 /* External */,
 				71A5400A1658498500E98278 /* Frameworks */,
 				71A540081658498500E98278 /* Products */,
 			);
@@ -67,7 +91,7 @@
 		71A540081658498500E98278 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71A540071658498500E98278 /* Public Transport Ukraine.app */,
+				71A540071658498500E98278 /* PTS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +99,7 @@
 		71A5400A1658498500E98278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71A5403C1659856400E98278 /* CoreLocation.framework */,
 				71A5400B1658498500E98278 /* UIKit.framework */,
 				71A5400D1658498500E98278 /* Foundation.framework */,
 				71A5400F1658498500E98278 /* CoreGraphics.framework */,
@@ -85,6 +110,8 @@
 		71A540111658498500E98278 /* Public Transport Ukraine */ = {
 			isa = PBXGroup;
 			children = (
+				71A5404216598B0E00E98278 /* Loader */,
+				71A54038165984B800E98278 /* Model */,
 				71A5401A1658498500E98278 /* PTAppDelegate.h */,
 				71A5401B1658498500E98278 /* PTAppDelegate.m */,
 				71A540231658498500E98278 /* PTViewController.h */,
@@ -110,12 +137,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71A54038165984B800E98278 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71A540391659850F00E98278 /* PTVehicle.h */,
+				71A5403A1659850F00E98278 /* PTVehicle.m */,
+				71A5403F165986DF00E98278 /* PTVehiclesOnRoute.h */,
+				71A54040165986DF00E98278 /* PTVehiclesOnRoute.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		71A5404216598B0E00E98278 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				71A5404316598B4300E98278 /* PTVehiclesOnRouteLoader.h */,
+				71A5404416598B4300E98278 /* PTVehiclesOnRouteLoader.m */,
+				71A5404616598B6D00E98278 /* PTVehiclesOnRouteLoaderDelegate.h */,
+				71A5404716598DA800E98278 /* PTVehicleTypes.h */,
+				71A5404916598E4E00E98278 /* PTCity.h */,
+			);
+			name = Loader;
+			sourceTree = "<group>";
+		};
+		71A5404A16599AD000E98278 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				71A5404B16599AD000E98278 /* JSONKit */,
+			);
+			path = External;
+			sourceTree = SOURCE_ROOT;
+		};
+		71A5404B16599AD000E98278 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				71A5404C16599AD000E98278 /* CHANGELOG.md */,
+				71A5404D16599AD000E98278 /* JSONKit.h */,
+				71A5404E16599AD000E98278 /* JSONKit.m */,
+				71A5404F16599AD000E98278 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71A540061658498500E98278 /* Public Transport Ukraine */ = {
+		71A540061658498500E98278 /* PTS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71A5402E1658498500E98278 /* Build configuration list for PBXNativeTarget "Public Transport Ukraine" */;
+			buildConfigurationList = 71A5402E1658498500E98278 /* Build configuration list for PBXNativeTarget "PTS" */;
 			buildPhases = (
 				71A540031658498500E98278 /* Sources */,
 				71A540041658498500E98278 /* Frameworks */,
@@ -125,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = "Public Transport Ukraine";
+			name = PTS;
 			productName = "Public Transport Ukraine";
-			productReference = 71A540071658498500E98278 /* Public Transport Ukraine.app */;
+			productReference = 71A540071658498500E98278 /* PTS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71A540061658498500E98278 /* Public Transport Ukraine */,
+				71A540061658498500E98278 /* PTS */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +237,9 @@
 				71A540221658498500E98278 /* Default-568h@2x.png in Resources */,
 				71A540281658498500E98278 /* PTViewController_iPhone.xib in Resources */,
 				71A5402B1658498500E98278 /* PTViewController_iPad.xib in Resources */,
+				71A5404816598DA800E98278 /* PTVehicleTypes.h in Resources */,
+				71A5405016599AD000E98278 /* CHANGELOG.md in Resources */,
+				71A5405216599AD000E98278 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +253,10 @@
 				71A540181658498500E98278 /* main.m in Sources */,
 				71A5401C1658498500E98278 /* PTAppDelegate.m in Sources */,
 				71A540251658498500E98278 /* PTViewController.m in Sources */,
+				71A5403B1659850F00E98278 /* PTVehicle.m in Sources */,
+				71A54041165986DF00E98278 /* PTVehiclesOnRoute.m in Sources */,
+				71A5404516598B4300E98278 /* PTVehiclesOnRouteLoader.m in Sources */,
+				71A5405116599AD000E98278 /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +346,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Public Transport Ukraine/Public Transport Ukraine-Prefix.pch";
 				INFOPLIST_FILE = "Public Transport Ukraine/Public Transport Ukraine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -281,6 +358,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Public Transport Ukraine/Public Transport Ukraine-Prefix.pch";
 				INFOPLIST_FILE = "Public Transport Ukraine/Public Transport Ukraine-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71A5402E1658498500E98278 /* Build configuration list for PBXNativeTarget "Public Transport Ukraine" */ = {
+		71A5402E1658498500E98278 /* Build configuration list for PBXNativeTarget "PTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71A5402F1658498500E98278 /* Debug */,

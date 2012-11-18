@@ -9,6 +9,11 @@
 #import "PTAppDelegate.h"
 
 #import "PTViewController.h"
+#import "PTVehiclesOnRouteLoader.h"
+
+@interface PTAppDelegate () <PTVehiclesOnRouteLoaderDelegate>
+
+@end
 
 @implementation PTAppDelegate
 
@@ -19,8 +24,20 @@
     [super dealloc];
 }
 
+- (void)loaderDidSuccededWithVehiclesOnRoute:(PTVehiclesOnRoute *)vehiclesOnRoute
+{
+
+}
+- (void)loaderDidFailedWithError:(NSError *)error
+{
+
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    PTVehiclesOnRouteLoader *loader = [[PTVehiclesOnRouteLoader alloc] initWithCity:PTCityDnepropetrovsk vehicleType:PTVehicleTypeTaxi routeIdentifier:@"101" delegate:self];
+    [loader startLoading];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
