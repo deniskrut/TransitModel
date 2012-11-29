@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71A540061658498500E98278"
-               BuildableName = "Public Transport Ukraine.app"
-               BlueprintName = "PTS"
-               ReferencedContainer = "container:Public Transport Ukraine.xcodeproj">
+               BlueprintIdentifier = "71EE1628165D09C7005A2B0F"
+               BuildableName = "libTransitModel.a"
+               BlueprintName = "TransitModel"
+               ReferencedContainer = "container:TransitModel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,17 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "71EE1636165D09C8005A2B0F"
+               BuildableName = "TransitModelTests.octest"
+               BlueprintName = "TransitModelTests"
+               ReferencedContainer = "container:TransitModel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71A540061658498500E98278"
-            BuildableName = "Public Transport Ukraine.app"
-            BlueprintName = "PTS"
-            ReferencedContainer = "container:Public Transport Ukraine.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,15 +49,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71A540061658498500E98278"
-            BuildableName = "Public Transport Ukraine.app"
-            BlueprintName = "PTS"
-            ReferencedContainer = "container:Public Transport Ukraine.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -66,15 +58,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71A540061658498500E98278"
-            BuildableName = "Public Transport Ukraine.app"
-            BlueprintName = "PTS"
-            ReferencedContainer = "container:Public Transport Ukraine.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

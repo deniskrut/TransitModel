@@ -9,8 +9,6 @@
 #import "PTVehiclesOnRoute.h"
 #import "PTVehicle.h"
 
-//http://transit.in.ua/importTransport.php?dataRequest%5B%5D=dnepropetrovsk-taxi-101
-
 @interface PTVehiclesOnRoute ()
 @property (nonatomic, readonly) NSArray *vehicles;
 @end
@@ -21,6 +19,7 @@
     self = [super init];
     if (self)
     {
+        assert([array isKindOfClass:[NSArray class]]);
         NSMutableArray *res = [NSMutableArray array];
         for (NSDictionary *dict in array)
         {

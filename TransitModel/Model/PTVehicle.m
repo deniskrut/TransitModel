@@ -29,8 +29,8 @@
         if (![[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] isKindOfClass:[NSNumber class]]) {
             @throw [NSException exceptionWithName:@"wrong-data" reason:@"Wrong data from server received" userInfo:nil];
         }
-        double lat = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:0] doubleValue];
-        double lng = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] doubleValue];
+        double lng = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:0] doubleValue];
+        double lat = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] doubleValue];
         self.coordinate = CLLocationCoordinate2DMake(lat, lng);
     }
     return self;
