@@ -3,6 +3,8 @@
 This project is Model and API Loader realization for transit.in.ua website. Using it's methods you can load locations of vehicles on the route, as well as stops names and locations.
 
 ## Example Use
+
+```objc
 	PTDummyVehiclesOnRouteLoaderDelegate *delegate = [[PTDummyVehiclesOnRouteLoaderDelegate alloc] init];
 
 
@@ -21,6 +23,7 @@ This project is Model and API Loader realization for transit.in.ua website. Usin
 			NSLog(@"lat&long:%f; %f", vehicle.coordinate.latitude, vehicle.coordinate.longitude);
 		}
 	}
+```
 
 ## How to add to your project
 
