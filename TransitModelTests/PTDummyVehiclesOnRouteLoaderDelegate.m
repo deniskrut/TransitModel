@@ -21,11 +21,18 @@
 - (void)loaderDidSuccededWithVehiclesOnRoute:(PTVehiclesOnRoute *)vehiclesOnRoute
 {
     _successCallsCount++;
-    _vehiclesOnRoute = vehiclesOnRoute;
+    _vehiclesOnRoute = [vehiclesOnRoute retain];
 }
 - (void)loaderDidFailedWithError:(NSError *)error
 {
     _failureCallsCount++;
-    _error = error;
+    _error = [error retain];
+}
+- (void)dealloc
+{
+    [_vehiclesOnRoute release];
+    [_error release];
+    
+    [super dealloc];
 }
 @end

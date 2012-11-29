@@ -7,7 +7,6 @@ This project is Model and API Loader realization for transit.in.ua website. Usin
 ```objc
 	PTDummyVehiclesOnRouteLoaderDelegate *delegate = [[PTDummyVehiclesOnRouteLoaderDelegate alloc] init];
 
-
 	PTVehiclesOnRouteLoader *loader = [[PTVehiclesOnRouteLoader alloc] initWithCity:PTCityDnepropetrovsk vehicleType:PTVehicleTypeTaxi routeIdentifier:@"101" delegate:delegate];
 	[loader startSyncronously];
 	

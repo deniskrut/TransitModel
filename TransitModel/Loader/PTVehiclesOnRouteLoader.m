@@ -32,11 +32,11 @@
 - (void)informDelegateAboutSuccessWithObject:(id)res
 {
     assert([res isKindOfClass:[PTVehiclesOnRoute class]]);
-    [self.delegate performSelectorOnMainThread:@selector(loaderDidSuccededWithVehiclesOnRoute:) withObject:res waitUntilDone:NO];
+    [self.delegate performSelectorOnMainThread:@selector(loaderDidSuccededWithVehiclesOnRoute:) withObject:res waitUntilDone:YES];
 }
 - (void)informDelegateAboutFailureWithError:(NSError *)err
 {
-    [self.delegate performSelectorOnMainThread:@selector(loaderDidFailedWithError:) withObject:err waitUntilDone:NO];
+    [self.delegate performSelectorOnMainThread:@selector(loaderDidFailedWithError:) withObject:err waitUntilDone:YES];
 }
 - (NSURL *)url
 {
