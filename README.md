@@ -6,7 +6,7 @@ Includes testing code and demo project.
 
 ## Screenshot
 
-![ScreenShot](screenshot.png)
+![ScreenShot](https://raw.github.com/deniskrut/TransitModel/master/screenshot.png)
 
 ## Example Use
 
