@@ -7,3 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PTVehicle.h"
+#import "PTVehiclesOnRoute.h"
+#import "PTVehiclesOnRouteLoader.h"
+#import "PTVehiclesOnRouteLoaderDelegate.h"
+#import "PTCity.h"

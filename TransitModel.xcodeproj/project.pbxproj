@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71CDBC3E167F92CF00F7F02A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5400B1658498500E98278 /* UIKit.framework */; };
+		71CDBC3F167F92CF00F7F02A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5400D1658498500E98278 /* Foundation.framework */; };
+		71CDBC40167F92CF00F7F02A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5400F1658498500E98278 /* CoreGraphics.framework */; };
+		71CDBC46167F92CF00F7F02A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC44167F92CF00F7F02A /* InfoPlist.strings */; };
+		71CDBC48167F92CF00F7F02A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBC47167F92CF00F7F02A /* main.m */; };
+		71CDBC4C167F92CF00F7F02A /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBC4B167F92CF00F7F02A /* PTAppDelegate.m */; };
+		71CDBC4E167F92CF00F7F02A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC4D167F92CF00F7F02A /* Default.png */; };
+		71CDBC50167F92CF00F7F02A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC4F167F92CF00F7F02A /* Default@2x.png */; };
+		71CDBC52167F92CF00F7F02A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC51167F92CF00F7F02A /* Default-568h@2x.png */; };
+		71CDBC55167F92CF00F7F02A /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CDBC54167F92CF00F7F02A /* PTViewController.m */; };
+		71CDBC58167F92CF00F7F02A /* PTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC56167F92CF00F7F02A /* PTViewController_iPhone.xib */; };
+		71CDBC5B167F92CF00F7F02A /* PTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71CDBC59167F92CF00F7F02A /* PTViewController_iPad.xib */; };
+		71CDBC64167F934400F7F02A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CDBC62167F933900F7F02A /* MapKit.framework */; };
+		71CDBC67167F940900F7F02A /* libTransitModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EE1629165D09C7005A2B0F /* libTransitModel.a */; };
+		71CDBC6B167FA1BD00F7F02A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CDBC62167F933900F7F02A /* MapKit.framework */; };
+		71CDBC6C167FA1C600F7F02A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CDBC62167F933900F7F02A /* MapKit.framework */; };
+		71CDBC6D167FA2BC00F7F02A /* PTBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE1665165D15EC005A2B0F /* PTBaseLoader.m */; };
+		71CDBC6E167FA2C000F7F02A /* PTVehiclesOnRouteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE1668165D15EC005A2B0F /* PTVehiclesOnRouteLoader.m */; };
+		71CDBC6F167FA2C500F7F02A /* PTVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE166D165D15EC005A2B0F /* PTVehicle.m */; };
+		71CDBC70167FA2C700F7F02A /* PTVehiclesOnRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE166F165D15EC005A2B0F /* PTVehiclesOnRoute.m */; };
+		71CDBC71167FA30000F7F02A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5403C1659856400E98278 /* CoreLocation.framework */; };
+		71CDBC72167FA32800F7F02A /* PTVehicle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE166C165D15EC005A2B0F /* PTVehicle.h */; };
+		71CDBC73167FA33200F7F02A /* PTVehicleTypes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE166A165D15EC005A2B0F /* PTVehicleTypes.h */; };
+		71CDBC74167FA33500F7F02A /* PTCity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE1666165D15EC005A2B0F /* PTCity.h */; };
+		71CDBC75167FA33D00F7F02A /* PTVehiclesOnRoute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE166E165D15EC005A2B0F /* PTVehiclesOnRoute.h */; };
+		71CDBC76167FA34300F7F02A /* PTBaseLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE1664165D15EC005A2B0F /* PTBaseLoader.h */; };
+		71CDBC77167FA34A00F7F02A /* TransitModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE1670165D15EC005A2B0F /* TransitModel.h */; };
+		71CDBC78167FA35300F7F02A /* PTVehiclesOnRouteLoader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE1667165D15EC005A2B0F /* PTVehiclesOnRouteLoader.h */; };
+		71CDBC79167FA35D00F7F02A /* PTVehiclesOnRouteLoaderDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71EE1669165D15EC005A2B0F /* PTVehiclesOnRouteLoaderDelegate.h */; };
 		71EE162A165D09C7005A2B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5400D1658498500E98278 /* Foundation.framework */; };
 		71EE1639165D09C8005A2B0F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EE1638165D09C8005A2B0F /* SenTestingKit.framework */; };
 		71EE163B165D09C8005A2B0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5400D1658498500E98278 /* Foundation.framework */; };
@@ -15,16 +44,19 @@
 		71EE1657165D0CE2005A2B0F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A5404E16599AD000E98278 /* JSONKit.m */; };
 		71EE1658165D0D05005A2B0F /* JSONKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 71A5404D16599AD000E98278 /* JSONKit.h */; };
 		71EE1660165D0D56005A2B0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A5403C1659856400E98278 /* CoreLocation.framework */; };
-		71EE1671165D15EC005A2B0F /* PTBaseLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE1665165D15EC005A2B0F /* PTBaseLoader.m */; };
-		71EE1672165D15EC005A2B0F /* PTVehiclesOnRouteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE1668165D15EC005A2B0F /* PTVehiclesOnRouteLoader.m */; };
-		71EE1673165D15EC005A2B0F /* PTVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE166D165D15EC005A2B0F /* PTVehicle.m */; };
-		71EE1674165D15EC005A2B0F /* PTVehiclesOnRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE166F165D15EC005A2B0F /* PTVehiclesOnRoute.m */; };
 		71EE1679165D16C1005A2B0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71EE1677165D16C1005A2B0F /* InfoPlist.strings */; };
 		71EE167C165D16CE005A2B0F /* TransitModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE167B165D16CE005A2B0F /* TransitModelTests.m */; };
 		71EE167F165D17B7005A2B0F /* PTDummyVehiclesOnRouteLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EE167E165D17B7005A2B0F /* PTDummyVehiclesOnRouteLoaderDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		71CDBC65167F940100F7F02A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A53FFE1658498500E98278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EE1628165D09C7005A2B0F;
+			remoteInfo = TransitModel;
+		};
 		71EE163C165D09C8005A2B0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71A53FFE1658498500E98278 /* Project object */;
@@ -41,7 +73,15 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				71CDBC79167FA35D00F7F02A /* PTVehiclesOnRouteLoaderDelegate.h in CopyFiles */,
+				71CDBC77167FA34A00F7F02A /* TransitModel.h in CopyFiles */,
 				71EE1658165D0D05005A2B0F /* JSONKit.h in CopyFiles */,
+				71CDBC72167FA32800F7F02A /* PTVehicle.h in CopyFiles */,
+				71CDBC74167FA33500F7F02A /* PTCity.h in CopyFiles */,
+				71CDBC73167FA33200F7F02A /* PTVehicleTypes.h in CopyFiles */,
+				71CDBC75167FA33D00F7F02A /* PTVehiclesOnRoute.h in CopyFiles */,
+				71CDBC76167FA34300F7F02A /* PTBaseLoader.h in CopyFiles */,
+				71CDBC78167FA35300F7F02A /* PTVehiclesOnRouteLoader.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +96,21 @@
 		71A5404D16599AD000E98278 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		71A5404E16599AD000E98278 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		71A5404F16599AD000E98278 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		71CDBC3C167F92CF00F7F02A /* TransitModelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitModelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CDBC43167F92CF00F7F02A /* TransitModelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitModelDemo-Info.plist"; sourceTree = "<group>"; };
+		71CDBC45167F92CF00F7F02A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71CDBC47167F92CF00F7F02A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71CDBC49167F92CF00F7F02A /* TransitModelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitModelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		71CDBC4A167F92CF00F7F02A /* PTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
+		71CDBC4B167F92CF00F7F02A /* PTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
+		71CDBC4D167F92CF00F7F02A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		71CDBC4F167F92CF00F7F02A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		71CDBC51167F92CF00F7F02A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		71CDBC53167F92CF00F7F02A /* PTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTViewController.h; sourceTree = "<group>"; };
+		71CDBC54167F92CF00F7F02A /* PTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTViewController.m; sourceTree = "<group>"; };
+		71CDBC57167F92CF00F7F02A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTViewController_iPhone.xib; sourceTree = "<group>"; };
+		71CDBC5A167F92CF00F7F02A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PTViewController_iPad.xib; sourceTree = "<group>"; };
+		71CDBC62167F933900F7F02A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		71EE1629165D09C7005A2B0F /* libTransitModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTransitModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE1637165D09C8005A2B0F /* TransitModelTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitModelTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE1638165D09C8005A2B0F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,10 +136,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		71CDBC39167F92CF00F7F02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CDBC71167FA30000F7F02A /* CoreLocation.framework in Frameworks */,
+				71CDBC67167F940900F7F02A /* libTransitModel.a in Frameworks */,
+				71CDBC64167F934400F7F02A /* MapKit.framework in Frameworks */,
+				71CDBC3E167F92CF00F7F02A /* UIKit.framework in Frameworks */,
+				71CDBC3F167F92CF00F7F02A /* Foundation.framework in Frameworks */,
+				71CDBC40167F92CF00F7F02A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71EE1626165D09C7005A2B0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CDBC6C167FA1C600F7F02A /* MapKit.framework in Frameworks */,
 				71EE162A165D09C7005A2B0F /* Foundation.framework in Frameworks */,
 				71EE1654165D0B2E005A2B0F /* CoreLocation.framework in Frameworks */,
 			);
@@ -94,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71CDBC6B167FA1BD00F7F02A /* MapKit.framework in Frameworks */,
 				71EE1639165D09C8005A2B0F /* SenTestingKit.framework in Frameworks */,
 				71EE1660165D0D56005A2B0F /* CoreLocation.framework in Frameworks */,
 				71EE163B165D09C8005A2B0F /* Foundation.framework in Frameworks */,
@@ -110,6 +180,7 @@
 				71A5404A16599AD000E98278 /* External */,
 				71EE162B165D09C7005A2B0F /* TransitModel */,
 				71EE163F165D09C8005A2B0F /* TransitModelTests */,
+				71CDBC41167F92CF00F7F02A /* TransitModelDemo */,
 				71A5400A1658498500E98278 /* Frameworks */,
 				71A540081658498500E98278 /* Products */,
 			);
@@ -120,6 +191,7 @@
 			children = (
 				71EE1629165D09C7005A2B0F /* libTransitModel.a */,
 				71EE1637165D09C8005A2B0F /* TransitModelTests.octest */,
+				71CDBC3C167F92CF00F7F02A /* TransitModelDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +199,7 @@
 		71A5400A1658498500E98278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71CDBC62167F933900F7F02A /* MapKit.framework */,
 				71A5403C1659856400E98278 /* CoreLocation.framework */,
 				71A5400B1658498500E98278 /* UIKit.framework */,
 				71A5400D1658498500E98278 /* Foundation.framework */,
@@ -153,6 +226,34 @@
 				71A5404F16599AD000E98278 /* README.md */,
 			);
 			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		71CDBC41167F92CF00F7F02A /* TransitModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71CDBC4A167F92CF00F7F02A /* PTAppDelegate.h */,
+				71CDBC4B167F92CF00F7F02A /* PTAppDelegate.m */,
+				71CDBC53167F92CF00F7F02A /* PTViewController.h */,
+				71CDBC54167F92CF00F7F02A /* PTViewController.m */,
+				71CDBC56167F92CF00F7F02A /* PTViewController_iPhone.xib */,
+				71CDBC59167F92CF00F7F02A /* PTViewController_iPad.xib */,
+				71CDBC42167F92CF00F7F02A /* Supporting Files */,
+			);
+			path = TransitModelDemo;
+			sourceTree = "<group>";
+		};
+		71CDBC42167F92CF00F7F02A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71CDBC43167F92CF00F7F02A /* TransitModelDemo-Info.plist */,
+				71CDBC44167F92CF00F7F02A /* InfoPlist.strings */,
+				71CDBC47167F92CF00F7F02A /* main.m */,
+				71CDBC49167F92CF00F7F02A /* TransitModelDemo-Prefix.pch */,
+				71CDBC4D167F92CF00F7F02A /* Default.png */,
+				71CDBC4F167F92CF00F7F02A /* Default@2x.png */,
+				71CDBC51167F92CF00F7F02A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		71EE162B165D09C7005A2B0F /* TransitModel */ = {
@@ -227,6 +328,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		71CDBC3B167F92CF00F7F02A /* TransitModelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CDBC5E167F92CF00F7F02A /* Build configuration list for PBXNativeTarget "TransitModelDemo" */;
+			buildPhases = (
+				71CDBC38167F92CF00F7F02A /* Sources */,
+				71CDBC39167F92CF00F7F02A /* Frameworks */,
+				71CDBC3A167F92CF00F7F02A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CDBC66167F940100F7F02A /* PBXTargetDependency */,
+			);
+			name = TransitModelDemo;
+			productName = TransitModelDemo;
+			productReference = 71CDBC3C167F92CF00F7F02A /* TransitModelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		71EE1628165D09C7005A2B0F /* TransitModel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71EE1648165D09C8005A2B0F /* Build configuration list for PBXNativeTarget "TransitModel" */;
@@ -287,11 +406,25 @@
 			targets = (
 				71EE1628165D09C7005A2B0F /* TransitModel */,
 				71EE1636165D09C8005A2B0F /* TransitModelTests */,
+				71CDBC3B167F92CF00F7F02A /* TransitModelDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		71CDBC3A167F92CF00F7F02A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CDBC46167F92CF00F7F02A /* InfoPlist.strings in Resources */,
+				71CDBC4E167F92CF00F7F02A /* Default.png in Resources */,
+				71CDBC50167F92CF00F7F02A /* Default@2x.png in Resources */,
+				71CDBC52167F92CF00F7F02A /* Default-568h@2x.png in Resources */,
+				71CDBC58167F92CF00F7F02A /* PTViewController_iPhone.xib in Resources */,
+				71CDBC5B167F92CF00F7F02A /* PTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71EE1634165D09C8005A2B0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,11 +452,25 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		71CDBC38167F92CF00F7F02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CDBC48167F92CF00F7F02A /* main.m in Sources */,
+				71CDBC4C167F92CF00F7F02A /* PTAppDelegate.m in Sources */,
+				71CDBC55167F92CF00F7F02A /* PTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71EE1625165D09C7005A2B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71EE1657165D0CE2005A2B0F /* JSONKit.m in Sources */,
+				71CDBC6F167FA2C500F7F02A /* PTVehicle.m in Sources */,
+				71CDBC6E167FA2C000F7F02A /* PTVehiclesOnRouteLoader.m in Sources */,
+				71CDBC70167FA2C700F7F02A /* PTVehiclesOnRoute.m in Sources */,
+				71CDBC6D167FA2BC00F7F02A /* PTBaseLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,10 +478,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71EE1671165D15EC005A2B0F /* PTBaseLoader.m in Sources */,
-				71EE1672165D15EC005A2B0F /* PTVehiclesOnRouteLoader.m in Sources */,
-				71EE1673165D15EC005A2B0F /* PTVehicle.m in Sources */,
-				71EE1674165D15EC005A2B0F /* PTVehiclesOnRoute.m in Sources */,
 				71EE167C165D16CE005A2B0F /* TransitModelTests.m in Sources */,
 				71EE167F165D17B7005A2B0F /* PTDummyVehiclesOnRouteLoaderDelegate.m in Sources */,
 			);
@@ -343,6 +486,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		71CDBC66167F940100F7F02A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71EE1628165D09C7005A2B0F /* TransitModel */;
+			targetProxy = 71CDBC65167F940100F7F02A /* PBXContainerItemProxy */;
+		};
 		71EE163D165D09C8005A2B0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 71EE1628165D09C7005A2B0F /* TransitModel */;
@@ -351,6 +499,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		71CDBC44167F92CF00F7F02A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CDBC45167F92CF00F7F02A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71CDBC56167F92CF00F7F02A /* PTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CDBC57167F92CF00F7F02A /* en */,
+			);
+			name = PTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		71CDBC59167F92CF00F7F02A /* PTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71CDBC5A167F92CF00F7F02A /* en */,
+			);
+			name = PTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
 		71EE1677165D16C1005A2B0F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +581,32 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71CDBC5C167F92CF00F7F02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitModelDemo/TransitModelDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransitModelDemo/TransitModelDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71CDBC5D167F92CF00F7F02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransitModelDemo/TransitModelDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransitModelDemo/TransitModelDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -477,6 +675,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		71CDBC5E167F92CF00F7F02A /* Build configuration list for PBXNativeTarget "TransitModelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CDBC5C167F92CF00F7F02A /* Debug */,
+				71CDBC5D167F92CF00F7F02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		71EE1648165D09C8005A2B0F /* Build configuration list for PBXNativeTarget "TransitModel" */ = {
 			isa = XCConfigurationList;

@@ -13,4 +13,5 @@
 - (id)initWithArray:(NSArray *)array;
 - (PTVehicle *)vehicleAtIndex:(NSUInteger)index;
 - (NSUInteger)count;
+- (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id __unsafe_unretained [])buffer count:(NSUInteger)len;
 @end

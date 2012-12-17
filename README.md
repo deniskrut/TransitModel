@@ -2,6 +2,12 @@
 
 This project is Model and API Loader realization for transit.in.ua website. Using it's methods you can load GPS coordinates of minibuses on the route, as well as stops names and locations.
 
+Includes testing code and demo project.
+
+## Screenshot
+
+![ScreenShot](screenshot.png)
+
 ## Example Use
 
 ```objc
@@ -18,7 +24,7 @@ This project is Model and API Loader realization for transit.in.ua website. Usin
 		for (int i = 0; i < delegate.vehiclesOnRoute.count; i++)
 		{
 			PTVehicle *vehicle = [delegate.vehiclesOnRoute vehicleAtIndex:0];
-			NSLog(@"%@", Info: vehicle.info);
+			NSLog(@"%@", Info: vehicle.title);
 			NSLog(@"lat&long:%f; %f", vehicle.coordinate.latitude, vehicle.coordinate.longitude);
 		}
 	}
@@ -28,6 +34,7 @@ This project is Model and API Loader realization for transit.in.ua website. Usin
 
 1. Add TransitModel as subproject
 2. Add TransitModel as target dependency
+3. Link with following frameworks: CoreLocation, MapKit, Foundation
 
 ## Contact me
 

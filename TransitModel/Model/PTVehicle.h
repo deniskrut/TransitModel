@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
-@interface PTVehicle : NSObject
-@property (nonatomic, retain) NSString *info;
+@interface PTVehicle : NSObject <MKAnnotation>
+@property (nonatomic, retain) NSString *title;
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 @end

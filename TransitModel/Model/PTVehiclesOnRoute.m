@@ -53,6 +53,10 @@
 {
     return [self.vehicles count];
 }
+- (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id __unsafe_unretained [])buffer count:(NSUInteger)len
+{
+    return [self.vehicles countByEnumeratingWithState:state objects:buffer count:len];
+}
 - (void)dealloc
 {
     [_vehicles release];

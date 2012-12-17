@@ -13,8 +13,8 @@
 {
     self = [self init];
     if (self) {
-        self.info = [dictionary objectForKey:@"info"];
-        if (![self.info isKindOfClass:[NSString class]]) {
+        self.title = [dictionary objectForKey:@"info"];
+        if (![self.title isKindOfClass:[NSString class]]) {
             @throw [NSException exceptionWithName:@"wrong-data" reason:@"Wrong data from server received" userInfo:nil];
         }
         if (![[dictionary objectForKey:@"cordinate"] isKindOfClass:[NSArray class]]) {
@@ -29,15 +29,15 @@
         if (![[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] isKindOfClass:[NSNumber class]]) {
             @throw [NSException exceptionWithName:@"wrong-data" reason:@"Wrong data from server received" userInfo:nil];
         }
-        double lng = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:0] doubleValue];
-        double lat = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] doubleValue];
+        double lng = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:1] doubleValue];
+        double lat = [[[dictionary objectForKey:@"cordinate"] objectAtIndex:0] doubleValue];
         self.coordinate = CLLocationCoordinate2DMake(lat, lng);
     }
     return self;
 }
 - (void)dealloc
 {
-    [_info release];
+    [_title release];
     [super dealloc];
 }
 @end
