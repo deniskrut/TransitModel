@@ -32,9 +32,13 @@ Includes testing code and demo project.
 
 ## How to add to your project
 
-1. Add TransitModel as subproject
-2. Add TransitModel as target dependency
-3. Link with following frameworks: CoreLocation, MapKit, Foundation
+1. Clone the repository `git clone git://github.com/deniskrut/TransitModel.git`
+2. `cd TransitModel`
+3. `git submodule init`
+4. `git submodule update`
+5. Add `TransitModel` as subproject to your project
+6. Add `TransitModel` as target dependency
+7. Link with following: `CoreLocation`, `MapKit`, `Foundation`, `libTransitModel`
 
 ## Contact me
 
