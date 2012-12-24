@@ -28,6 +28,9 @@ Includes testing code and demo project.
 			NSLog(@"lat&long:%f; %f", vehicle.coordinate.latitude, vehicle.coordinate.longitude);
 		}
 	}
+	
+	[loader release];
+	[delegate release];
 ```
 
 ## How to add to your project
