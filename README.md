@@ -1,6 +1,6 @@
 # Transit.in.ua Data Model and Loader
 
-This project is Model and API Loader realization for transit.in.ua website. Using it's methods you can load GPS coordinates of minibuses on the route.
+This project is Model and API Loader realization for transit.in.ua website. Using it's methods you can load GPS coordinates of minibuses on the routes in some cities of Ukraine.
 
 Includes testing code and demo project.
 
